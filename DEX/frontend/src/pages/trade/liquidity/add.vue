@@ -1,0 +1,3 @@
+<template>
+  <ModuleLiquidityAdd />
+</template>

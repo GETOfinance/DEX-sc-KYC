@@ -1,0 +1,3 @@
+<template>
+  <ModuleLiquidityRemove />
+</template>
