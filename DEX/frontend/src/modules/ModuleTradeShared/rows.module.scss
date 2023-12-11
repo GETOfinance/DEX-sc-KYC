@@ -1,0 +1,34 @@
+@use '@/styles/vars';
+
+.row-md {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  color: vars.$dark2;
+
+  & > :last-child {
+    font-weight: 600;
+    max-width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+  }
+}
+
+.row-sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: vars.$dark2;
+
+  &--dimmed {
+    font-weight: 500;
+    color: vars.$gray2;
+  }
+}
