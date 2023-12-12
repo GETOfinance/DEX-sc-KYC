@@ -20,6 +20,9 @@ ecentralized Governance: DEX protocol is governed by token holders, a native gov
 
 Staking: Earning additional rewards for staking LP tokens. These rewards come in the form of native governance tokens, yield farming rewards, or other incentives. Users may stake their LP tokens in specific staking contracts to earn these additional rewards.
 
+DEX Flow Chat
+
+![DEX Flow Chat](https://cdn.dorahacks.io/static/files/18c2a92dafeeea47620722945cbb6d50.png)
 
 DEX Smart Contracts deployed on Polygon zkEVM Testnet
 
@@ -49,8 +52,4 @@ Staking Factory deployed to: 0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 https://testnet-zkevm.polygonscan.com/address/0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 
 
-
-DEX Flow Chat
-
-![DEX Flow Chat](https://cdn.dorahacks.io/static/files/18c2a92dafeeea47620722945cbb6d50.png)
 
