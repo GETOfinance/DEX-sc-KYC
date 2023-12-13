@@ -56,4 +56,32 @@ Staking Factory deployed to: 0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 https://testnet-zkevm.polygonscan.com/address/0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 
 
+DEX Smart Contracts deployed on Avalanche Fuji Testnet
+
+WAVAX deployed to: 0x4Cd7fDFf83DC1540696BdaF38840a93134336dF8
+https://testnet.snowtrace.io/address/0x4Cd7fDFf83DC1540696BdaF38840a93134336dF8
+
+Dex Factory deployed to: 0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9
+https://testnet.snowtrace.io/address/0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9
+
+Dex Router deployed to:  0x95ee06ec2D944B891E82CEd2F1404FBB8A36dA44
+https://testnet.snowtrace.io/address/0x95ee06ec2D944B891E82CEd2F1404FBB8A36dA44
+
+Multisig deployed to: 0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8
+https://testnet.snowtrace.io/address/0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8
+
+MultiCall deployed to: 0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3
+https://testnet.snowtrace.io/address/0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3
+
+Dex Token deployed to: 0x10c9Ab23a88a17fe62687Df67895F1bC7f6ba05A
+https://testnet.snowtrace.io/address/0x10c9Ab23a88a17fe62687Df67895F1bC7f6ba05A
+
+Farming deployed to: 0x18c9CbC1E055aBA2494Bc1d787436586EAca8456
+https://testnet.snowtrace.io/address/0x18c9CbC1E055aBA2494Bc1d787436586EAca8456
+
+Staking Factory deployed to: 0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
+https://testnet.snowtrace.io/address/0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
+
+
+
 
