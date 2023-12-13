@@ -56,6 +56,7 @@ Staking Factory deployed to: 0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 https://testnet-zkevm.polygonscan.com/address/0x2bBf07A1f4F67C1e9dEEF49b64Cbed1DB59367f7
 
 
+
 DEX Smart Contracts deployed on Avalanche Fuji Testnet
 
 WAVAX deployed to: 0x4Cd7fDFf83DC1540696BdaF38840a93134336dF8
