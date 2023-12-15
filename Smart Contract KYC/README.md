@@ -9,8 +9,11 @@ The application is written in Angular, Solidity smart contracts which are deploy
 The KYContract platform uses a number of different technologies to achieve its goals. These include:
 
 **Polygon ID**: Polygon ID is a decentralized identity protocol that allows users to create and manage their own digital identities. KYContract uses Polygon ID to verify the identity of dApp developers.
+
 **Filecoin**: Filecoin is a decentralized storage network that provides a secure and reliable way to store data. KYContract uses Filecoin to store the KYC data of dApp developers.
+
 **Axelar**: Axelar is a cross-chain communication protocol that allows users to transfer assets and data between different blockchains. KYContract uses Axelar to bridge the Polygon and Filecoin networks.
+
 **Polybase**: Polybase is a database that can be used to store data from multiple different sources. KYContract uses Polybase to store the KYC data of dApp developers and the audit reports of KYC auditors.
 
 # Benefits
