@@ -1,0 +1,63 @@
+specVersion: 0.0.2
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: DexFactory
+    network: baobab
+    source:
+      abi: DexFactory
+      address: "0x339ba51a3D65Ad5418aee14b0546088bFe99403c"
+      startBlock: 103936783
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      file: ./src/factory.ts
+      entities:
+        - Pair
+        - Token
+      abis:
+        - name: DexFactory
+          file: ./abis/DexFactory.json
+        - name: KIP7
+          file: ./abis/KIP7.json
+        - name: KIP7NameBytes
+          file: ./abis/KIP7NameBytes.json
+        - name: KIP7SymbolBytes
+          file: ./abis/KIP7SymbolBytes.json
+      eventHandlers:
+        - event: PairCreated(indexed address,indexed address,address,uint256)
+          handler: handlePairCreated
+templates:
+  - kind: ethereum/contract
+    name: DexPair
+    network: baobab
+    source:
+      abi: DexPair
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      file: ./src/core.ts
+      entities:
+        - Pair
+        - Token
+      abis:
+        - name: DexFactory
+          file: ./abis/DexFactory.json
+        - name: DexPair
+          file: ./abis/DexPair.json
+        - name: KlayOracle
+          file: ./abis/KlayOracle.json
+      eventHandlers:
+        - event: Mint(indexed address,uint256,uint256)
+          handler: handleMint
+        - event: Burn(indexed address,uint256,uint256,indexed address)
+          handler: handleBurn
+        - event: Swap(indexed address,uint256,uint256,uint256,uint256,indexed address)
+          handler: handleSwap
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+        - event: Sync(uint112,uint112)
+          handler: handleSync
